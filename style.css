@@ -31,13 +31,14 @@
 }
 .skip{
     color: orange;
+    font-size:xx-large;
 }
 .button{
     margin-top: 20px;
     margin-bottom: 100px;
     border-radius: 30px;
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 100px;
     text-decoration: none;
     background-image: linear-gradient(yellow,red);
 }
@@ -51,7 +52,7 @@ section{
     background-image: url(img/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-position: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, serif;
     
 }
 .two-img{
@@ -63,6 +64,9 @@ section{
     margin: 100px;
     padding-bottom: 100px;
     width:50%;
+}
+.two-second p{
+    padding-left: 100px;
 }
 .two p{
     margin-bottom: 50px;
@@ -103,11 +107,15 @@ section{
     padding-left: 10px;
 }
 .chart{
+    height: 200px;
     padding-left: 600px;
     margin:50px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px aqua;
     background-image: url(img/shapes/Frame\ 59.jpg);
+}
+.chart h3{
+    padding-top: 20px;
 }
 .charts{
     display: flex;

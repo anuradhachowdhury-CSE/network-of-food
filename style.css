@@ -1,0 +1,78 @@
+.half-width{
+    width: 40%;
+}
+.one{
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.one-img{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    
+}
+.skip{
+    color: orange;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(yellow,red);
+}
+section{
+    margin-bottom:50px ;
+}
+.two{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url(img/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.two-img{
+   margin: 40px;
+   padding-top: 40px;
+}
+.two-second{
+  
+    margin: 100px;
+    padding-bottom: 100px;
+    width:50%;
+}
+.two p{
+    margin-bottom: 50px;
+}
+.experience1{
+    text-align: center;
+    width:50%;
+    margin-left: 400px;
+}
+.experience2{
+    display:flex;
+}
+.half-width2{
+    width:20%;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px yellow;
+}
+.half-width2 img{
+    width:90%;
+}

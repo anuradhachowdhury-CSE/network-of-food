@@ -1,5 +1,6 @@
 .half-width{
     width: 40%;
+
 }
 .one{
     width: 100%;
@@ -8,13 +9,19 @@
     background-image: url(img/shapes/7.png);
     background-repeat: no-repeat;
     background-position: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, serif; 
+    padding: 40px;
 }
-
+.half-width h1{
+    padding-left: 100px;
+    
+}
 .one p{
     text-align: justify;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-left: 100px;
+
 }
 .one-img{
     width: 300px;
@@ -30,6 +37,7 @@
     margin-bottom: 100px;
     border-radius: 30px;
     padding: 10px;
+    margin-left: 120px;
     text-decoration: none;
     background-image: linear-gradient(yellow,red);
 }
@@ -61,18 +69,67 @@ section{
 }
 .experience1{
     text-align: center;
-    width:50%;
-    margin-left: 400px;
+     margin-left: 100px;
+     margin-bottom: 100px;
+     
+}
+.experience1 p{
+    padding-left: 400px;
+    width:40%;
+    text-align: center;
 }
 .experience2{
     display:flex;
+    justify-content: center;
+   
 }
 .half-width2{
-    width:20%;
-    margin: 50px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px yellow;
+    width:300px;
+    height: 400px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    padding: 2%;
 }
 .half-width2 img{
+    border: 1px solid gray;
+    border-radius: 10px;
     width:90%;
+    height:200px;
+    box-shadow: 10px 10px 10px gray;
+    padding-left: 10px;
+}
+.chart{
+    padding-left: 600px;
+    margin:50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px aqua;
+    background-image: url(img/shapes/Frame\ 59.jpg);
+}
+.charts{
+    display: flex;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+    border:2px solid gray;
+    background-image: url(img/shapes/Frame\ 57.jpg);
+}
+footer{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    color:gray;
+    text-align: center;
+    height:200px;
+    background-color: black;
+}
+footer h1,p{
+    margin-top: 20px;
+}
+.food{
+    
+    color: orange;
 }
